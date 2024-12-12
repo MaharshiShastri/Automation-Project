@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI Dashboard Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1 { text-align: center; }
+        .chart { text-align: center; margin-bottom: 30px; }
+        .predictions { color: green; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+        table, th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>KPI Dashboard Report</h1>
+
+    <h2>Total Sales per Category</h2>
+    <div class="chart">
+        <img src="total_sales.png" alt="Total Sales per Category">
+    </div>
+
+    <h2>Return on Marketing Spend per Category</h2>
+    <div class="chart">
+        <img src="roms.png" alt="Return on Marketing Spend per Category">
+    </div>
+
+    <h2>Average Order Value per Category</h2>
+    <div class="chart">
+        <img src="aov.png" alt="Average Order Value per Category">
+    </div>
+
+    <h2>Sales Predictions per Category</h2>
+    <div>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Predicted Sales for Next Year</th>
+            </tr>
+
+    <tr>
+        <td>Beauty</td>
+        <td class="predictions">2088916.2100000381</td>
+    </tr>
+    
+    <tr>
+        <td>Electronics</td>
+        <td class="predictions">5714032.6999999285</td>
+    </tr>
+    
+    <tr>
+        <td>Sports</td>
+        <td class="predictions">10452108.333333313</td>
+    </tr>
+    
+    <tr>
+        <td>Clothing</td>
+        <td class="predictions">6015036.080000043</td>
+    </tr>
+    
+    <tr>
+        <td>Home & Kitchen</td>
+        <td class="predictions">3735060.5500000715</td>
+    </tr>
+    
+        </table>
+    </div>
+</body>
+</html>
